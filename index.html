@@ -1,0 +1,311 @@
+<!DOCTYPE html>
+
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Oscar Fabricio Rodríguez | Data Analyst</title>
+
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box
+        }
+
+        body {
+            font-family: 'Inter', sans-serif;
+            background: #ffffff;
+            color: #202124;
+        }
+
+        /* NAV */
+
+        nav {
+            display: flex;
+            justify-content: space-between;
+            padding: 20px 8%;
+            border-bottom: 1px solid #eee;
+        }
+
+        nav a {
+            text-decoration: none;
+            color: #1a73e8;
+            font-weight: 500;
+            margin-left: 20px;
+        }
+
+        /* HERO */
+
+        .hero {
+            padding: 90px 8%;
+            max-width: 1100px;
+            margin: auto;
+        }
+
+        .hero h1 {
+            font-size: 50px;
+            font-weight: 700;
+        }
+
+        .hero p {
+            margin-top: 15px;
+            font-size: 20px;
+            color: #5f6368;
+            max-width: 700px;
+        }
+
+        .buttons a {
+            display: inline-block;
+            margin-top: 30px;
+            margin-right: 15px;
+            padding: 14px 22px;
+            border-radius: 8px;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        .primary {
+            background: #1a73e8;
+            color: white;
+        }
+
+        .secondary {
+            border: 1px solid #dadce0;
+            color: #1a73e8;
+        }
+
+        /* SECTION */
+
+        section {
+            padding: 70px 8%;
+            max-width: 1100px;
+            margin: auto;
+        }
+
+        h2 {
+            font-size: 32px;
+            margin-bottom: 30px;
+        }
+
+        /* SKILLS */
+
+        .skills span {
+            display: inline-block;
+            border: 1px solid #dadce0;
+            padding: 10px 14px;
+            border-radius: 8px;
+            margin: 7px;
+        }
+
+        /* PROJECTS */
+
+        .grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            gap: 25px;
+        }
+
+        .card {
+            border: 1px solid #e0e0e0;
+            padding: 28px;
+            border-radius: 14px;
+            transition: .25s;
+        }
+
+        .card:hover {
+            box-shadow: 0 8px 28px rgba(0, 0, 0, .08);
+            transform: translateY(-3px);
+        }
+
+        .card a {
+            display: inline-block;
+            margin-top: 15px;
+            color: #1a73e8;
+            text-decoration: none;
+            font-weight: 600;
+        }
+
+        /* EXPERIENCE */
+
+        .exp {
+            margin-bottom: 22px;
+        }
+
+        footer {
+            margin-top: 70px;
+            padding: 40px;
+            text-align: center;
+            background: #f8f9fa;
+            color: #5f6368;
+        }
+    </style>
+
+</head>
+
+<body>
+
+    <nav>
+
+        <div><b>Fabricio Rodriguez Gamiño</b></div>
+
+    </nav>
+
+    <div class="hero">
+
+        <h1>Data Analyst</h1>
+
+        <p>
+            Analista de datos con experiencia en Python, SQL, R y Excel.
+            Especializado en análisis exploratorio, visualización y generación de insights
+            para toma de decisiones.
+        </p>
+
+        <div class="buttons">
+
+            <div class="buttons">
+
+                <a class="primary" href="https://github.com/Archer1202">
+                    Ver GitHub
+                </a>
+
+                <a class="primary" href="https://www.linkedin.com/in/oscar-fabricio-rodriguez-gamino-b12674257/">
+                    Ver LinkedIn
+                </a>
+
+            </div>
+
+        </div>
+
+    </div>
+
+    <section>
+
+        <h2>Stack técnico</h2>
+
+        <div class="skills">
+
+            <span>Python</span> <span>SQL</span> <span>R</span> <span>Pandas</span> <span>Streamlit</span>
+            <span>Excel</span> <span>SAP (financiero)</span> <span>Data Visualization</span> <span>Resolución de
+                problemas</span>
+            <span>Comunicación de datos</span> <span>Trabajo en equipo</span>
+
+
+            <h2>Sobre mi</h2>
+
+            <p>
+                Profesionista en Biología con experiencia en análisis de datos, manejo de grandes volúmenes de
+                información,
+                control de inventarios y supervisión de equipos. Busco integrarme como Analista de Datos para aplicar
+                mis
+                conocimientos en Python, SQL, R, Excel y SAP, así como mi capacidad para resolver problemas complejos y
+                generar
+                reportes estratégicos que apoyen la toma de decisiones.
+
+            </p>
+
+        </div>
+
+    </section>
+
+    <section>
+
+        <h2>Proyectos</h2>
+
+        <div class="grid">
+
+            <div class="card">
+
+                <h3>Análisis de ventas de vehículos</h3>
+
+                <p>
+                    Proyecto de análisis usando Python, Pandas y Streamlit.
+                    Incluye limpieza de datos, visualización y conclusiones.
+                </p>
+
+                <a href="https://github.com/Archer1202/vehicles_env">
+                    Abrir repositorio →
+                </a>
+
+            </div>
+
+            <div class="card">
+
+                <h3>Análisis de videojuegos</h3>
+
+                <p>
+                    Exploración completa de dataset de videojuegos,
+                    identificando tendencias de ventas y comportamiento.
+                </p>
+
+                <a href="https://github.com/Archer1202/Sells_videogames">
+                    Abrir repositorio →
+                </a>
+
+            </div>
+
+        </div>
+
+    </section>
+
+    <section>
+
+        <h2>Experiencia</h2>
+
+        <div class="exp">
+            <b>Caliente Casino Morelia — Jefe de Cajeros / Caliente Casino</b><br>
+            <ul>
+                <li>Registro y control de ingresos y egresos diarios mediante bases de datos en Excel, HACSA y SAP.</li>
+                <li>Supervisión del flujo de efectivo y abastecimiento de cajeros automáticos.</li>
+                <li>Generación de reportes financieros y operativos para la toma de decisiones.</li>
+                <li>Coordinación del equipo de cajeros y atención a necesidades operativas.</li>
+            </ul>
+        </div>
+
+        <div class="exp">
+            <b>Facilitador - Dealer / Caliente Casino </b><br>
+            <ul>
+                <li>Gestión de transacciones financieras y manejo de efectivo en mesas de juego.</li>
+                <li>Atención al cliente y resolución de conflictos en tiempo real.</li>
+                <li>Control de inventario y registro de operaciones diarias</li>
+            </ul>
+        </div>
+
+        <div class="exp">
+            <b>Técnico fumigador y capacitador / Fumigaciones Kekaos</b><br>
+            <ul>
+                <li>Administración de recursos, compras y control de materiales.</li>
+                <li>Preparación de químicos y capacitación a personal sobre su uso seguro.</li>
+                <li>Atención al cliente y explicacion de procedimientos técnicos.</li>
+            </ul>
+        </div>
+
+        <div class="exp">
+            <b>Investigador y tutor / Cuarto Arte Exeni Asociación Civil</b><br>
+            <ul>
+                <li>Coordinación de equipos multidisciplinarios en proyectos de biología.</li>
+                <li>Tutoría y apoyo académico a estudiantes.</li>
+                <li>Diseño de programas educativos y capacitación en temas ecologicos y biologicos</li>
+                <li>Gestion de información y análisis de datos ambientales</li>
+            </ul>
+        </div>
+
+    </section>
+
+    <footer>
+
+        Oscar Fabricio Rodríguez — Data Analyst<br><br>
+        <div>[archerzilver@gmail.com]</div>
+        <div>(Morelia, Michoacan, Mexico)</div>
+        <div>Tel. 443-360-0129</div>
+
+
+    </footer>
+
+</body>
+
+</html>
